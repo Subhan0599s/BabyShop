@@ -1,0 +1,71 @@
+name: book_onlineapp
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.1.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/logos/apple.png
+  - assets/logos/a3.png
+  - assets/logos/light.png
+  - assets/logos/facebook.png
+  - assets/logos/google.png
+#    - assets/images/catlogs/catlog1.jpeg
+#    - assets/images/catlogs/catlog2.jpeg
+#    - assets/images/catlogs/catlog3.jpeg
+#    - assets/images/catlogs/catlog4.jpeg
+#    - assets/images/catlogs/catlog5.jpeg
+#    - assets/images/catlogs/catlog6.jpeg
+#    - assets/images/catlogs/catlog7.jpeg
+#    - assets/images/catlogs/catlog8.jpeg
+#    - assets/images/banners/b1.jpeg
+#    - assets/images/banners/b2.jpeg
+#    - assets/images/banners/b3.jpeg
+
+  fonts:
+    - family: Poppins,
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
